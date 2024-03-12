@@ -1,12 +1,6 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - andyqin18
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - andyqin18/AI_Project-Finetuning_Language_Models-Toxic_Tweets
+  - andyqin18/ROB2004
