@@ -10,21 +10,24 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Tianhao (Andy) Qin</p>
-    <p>B.S. in Mech. Eng.</p>
-    <p>M.S. in Robotics</p>
+    <p>When meet in-person</p>
+    <p>Expect older version</p>
 
 news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-## Education
-- M.S., Robotics at University of Michigan
-- B.S., Mechanical Engineering at 
+你好！Hola! こんにちは! 안녕하세요! (I don't speak all of them)
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi! This is Andy from Shanghai. Welcome to my page where you can explore some of the [coooool things](http://andyqin18.github.io/projects/) I do. 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+#### A Little Intro:
+I got my Bachelor's degree in **Mechanical Engineering** at [New York University](https://engineering.nyu.edu/) in 2023, where I developed a huge interest in Robotics. I am currently a Master Student in **Robotics** at the [University of Michigan](https://robotics.umich.edu/) specialized in Machine Learning, Estimation and Control.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My interest lies in the applications of Deep Learning in **Computer Vision**, Navigation of **Mobile Robots**, and Optimal Control of **Articulated Limbs**.
+
+#### Contact: 
+ - andyqin918@gmail.com
+ - +1 (347) 247-8167  *Yes, still a New York number*
+

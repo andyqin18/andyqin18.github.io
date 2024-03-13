@@ -6,7 +6,7 @@
     "email": "andyqin918@gmail.com",
     "phone": "(347) 247-8167",
     "url": "https://andyqin18.github.io/",
-    "summary": "An enthusiastic roboticist and explorer from Shanghai to the world."
+    "summary": "An enthusiastic roboticist and explorer of the world."
   },
   "education": [
     {
@@ -18,7 +18,9 @@
       "startDate": "2023-09",
       "endDate": "2025-05",
       "score": "10",
-      "courses": ["Self-driving Cars", "3D Robot Perception"]
+      "courses": ["ROB530 - Mobile Robotics",
+      "ROB599 - Deep Learning for Robot Perception",
+      "ROB535 - Self-driving Cars"]
     },
     {
       "institution": "New York University, Tandon School of Engineering",
@@ -29,108 +31,136 @@
       "startDate": "2019-09",
       "endDate": "2023-05",
       "score": "10",
-      "courses": ["Robotic Manipulation and Locomotion", "Robot Motion and Planning", "Robot Vision"]
+      "courses": ["Minor in Computer Science and Robotics",
+      "ROB2004 - Robotic Manipulation and Locomotion",
+      "ROB3203 - Robot Vision", 
+      "ROB3303 - Robot Motion and Planning"]
     }
   ],
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "name": "NYU Robotic Design Team, Vertically Integrated Projects",
+      "position": "Team Lead",
+      "url": "https://rdt.engineering.nyu.edu/",
+      "startDate": "2022-05",
+      "endDate": "2023-05",
+      "summary": "Lead to compete in NASA Robotic Mining Competition: Lunabotics",
+      "highlights": ["Led a team of 50 to design and manufacture a rover that aimed to excavate and deposit icy regolith below surface on the Moon.",
+      "Implemented Agile project management according to NASA's systems engineering standards throughout project life cycle.",
+      "Developed ConOp, System Requirements, and subsequent Verification Plans following the “V” model of systems engineering."
+      ]
+    },
+    {
+      "name": "CSE Department, New York University",
+      "position": "Course Assistant of CS1114",
+      "url": "https://github.com/sebastianromerocruz/CS1114-material",
+      "startDate": "2022-01",
+      "endDate": "2023-05",
+      "summary": "",
+      "highlights": ["Graded Python assignments with comments and held office hours for 10 hours weekly.",
+      "Taught 3-hour lab sections on Python and reviewed professor's lecture materials every Friday."]
+    },
+    {
+      "name": "AI4CE Lab, New York University",
+      "position": "Research Assistant",
+      "url": "https://ai4ce.github.io/",
+      "startDate": "2021-05",
+      "endDate": "2022-05",
+      "summary": "Continued working on cool projects after doing summer research.",
+      "highlights": ["Revised pose estimation algorithm to project water pipeline information onto planar surface.",
+      "Tested real-time SLAM with projector on a Unitree A1 robot dog.",
+      "Researched decentralized formation control algorithms and simulated soft particle movements in Pybullet.",
+      "Published an abstract during the 2021 NYU UGSRP Showcase."]
+    },
+    {
+      "name": "Future Labs, New York University",
+      "position": "Product Engineer Internship",
+      "url": "https://makerspace.engineering.nyu.edu/makerspace/meet-the-fall-2021-prototyping-fund-cohort/",
+      "startDate": "2021-09",
+      "endDate": "2022-01",
+      "summary": "Click link above to see me holding a mic",
+      "highlights": ["Produced skateboarding wheels with biodegradable polyurethanes and researched optimal plastic combinations.",
+      "Designed 3D wheel injection molds with SOLIWORKS and simulated mold fabrication through CAM in Fusion 360.",
+      "Manufactured molds from polyethylene plastic blocks through OtherMill CNC machine.",
+      "Awarded NYU Prototyping Fund."]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Check out my projects page!",
+      "summary": "Click above or tab on the top right corner",
+      "highlights": "",
+      "startDate": "2019-09",
+      "endDate": "9999-12",
+      "url": "http://andyqin18.github.io/projects/"
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "NYU Prototyping Fund",
+      "date": "2022-01",
+      "awarder": "NYU Future Labs",
+      "url": "https://makerspace.engineering.nyu.edu/makerspace/fall-2021-prototyping-fund-showcase-recap/",
+      "summary": "The fund is only $1500 though, but enough for a wild prototype."
     }
   ],
   "certificates": [
     {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
+      "name": "Data Analytics Bootcamp",
+      "date": "2020-11",
+      "issuer": "New York University",
+      "url": "https://engineering.nyu.edu/life-tandon/tandon-career-hub/resources-students/data-science-bootcamp",
+      "icon": "fa-solid fa-database"
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "name": "Certified Level 2 Skiier",
+      "date": "2020-01",
+      "issuer": "Me, Myself, and I",
+      "url": "http://andyqin18.github.io/",
+      "icon": "fa-solid fa-person-skiing"
     }
   ],
   "skills": [
     {
-      "name": "Physics",
+      "name": "Coding Language",
       "level": "Master",
-      "icon": "fa-solid fa-hashtag",
+      "icon": "fa-solid fa-laptop-code",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Python",
+        "MATLAB",
+        "Java",
+        "C++"
+      ]
+    },
+    {
+      "name": "Data Libraries",
+      "level": "Master",
+      "icon": "fa-solid fa-server",
+      "keywords": [
+        "Numpy",
+        "Pandas",
+        "Tensorflow",
+        "Pytorch"
+      ]
+    },
+    {
+      "name": "CAD Design",
+      "level": "Master",
+      "icon": "fa-solid fa-gear",
+      "keywords": [
+        "SOLIDWORKS",
+        "ANSYS",
+        "OnShape"
+      ]
+    },
+    {
+      "name": "Robotics Simulation",
+      "level": "Master",
+      "icon": "fa-solid fa-robot",
+      "keywords": [
+        "ROS",
+        "Gazebo",
+        "PyBullet"
       ]
     }
   ],
@@ -138,48 +168,33 @@
     {
       "language": "Mandarin",
       "fluency": "Native speaker",
-      "icon": ""
+      "icon": "fa-solid fa-comment"
     },
     {
       "language": "Shanghainese",
       "fluency": "Try me",
-      "icon": ""
+      "icon": "fa-solid fa-comment"
     }
   ],
   "interests": [
     {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
+      "name": "Robotics",
+      "icon": "fa-solid fa-robot",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Deep Learning",
+        "Computer Vision",
+        "Manipulation",
+        "Planning"
       ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
     },
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
-  "projects": [
-    {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "Data Science",
+      "icon": "fa-solid fa-server",
+      "keywords": [
+        "Machine Learning",
+        "NLP",
+        "Data Visualization"
+      ]
     }
   ]
 }
