@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title: Robot Manipulation
+description: Pick and place objects with Frank-Emika Panda
+img: assets/img/p2_cover.jpg
 importance: 2
-category: work
+category: Classwork
 giscus_comments: true
 ---
 
