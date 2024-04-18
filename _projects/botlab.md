@@ -1,12 +1,13 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
-importance: 3
-category: Work
+title: Rob Sys Lab - Botlab
+description: SLAM and path planning on a differential drive robot
+img: assets/img/botlab_cover.png
+importance: 2
+category: Graduate
+giscus_comments: true
 ---
+
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.

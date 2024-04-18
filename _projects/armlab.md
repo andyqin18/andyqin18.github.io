@@ -1,11 +1,13 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
-img:
-importance: 4
-category: Fun
+title: Rob Sys Lab - Armlab
+description: Detect and arrange colored cubes with a ReactorX 200
+img: assets/img/armlab_cover.jpg
+importance: 3
+category: Graduate
+giscus_comments: true
 ---
+
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.

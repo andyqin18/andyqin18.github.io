@@ -1,12 +1,13 @@
 ---
 layout: page
-title: Robot Manipulation
-description: Pick and place objects with Frank-Emika Panda
-img: assets/img/p2_cover.jpg
-importance: 2
-category: Classwork
+title: Monocular 3D Obj. Detection
+description: Implement MonoCon for car detection in KITTI format
+img: assets/img/monocon_cover.png
+importance: 1
+category: Graduate
 giscus_comments: true
 ---
+
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
