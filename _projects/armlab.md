@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Rob Sys Lab - Armlab
-description: Detect and arrange colored cubes with a ReactorX 200
-img: assets/img/armlab_cover.jpg
-importance: 3
+title: Robot Arm Control for Block Detection and Manipulation
+description: Detect and arrange colored cubes by controlling the motion of a 5-DOF ReactorX 200
+img: assets/img//armlab/armlab_cover4.gif
+importance: 2
 category: Graduate
 giscus_comments: true
 ---

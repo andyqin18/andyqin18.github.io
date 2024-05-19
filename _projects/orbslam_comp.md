@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Autonomous Differential Drive Robot for Warehousing Tasks
-description: SLAM and path planning on a differential drive Mbot to relocate target in a simulated warehouse
-img: assets/img//botlab/botlab_cover4.png
-importance: 3
+title: Multirobot ORB-SLAM Robustness Analysis
+description: Compare robustness between different centralized extensions of multi-agent ORB-SLAM2
+img: assets/img/orbslam/orbslam_cover4.gif
+importance: 4
 category: Graduate
-giscus_comments: true
+giscus_comments: false
 ---
 
 
@@ -24,7 +24,7 @@ To give your project a background in the portfolio page, just add the img tag to
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/orbslam_cover16.gif" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
@@ -80,3 +80,14 @@ Here's the code for the last row of images above:
 ```
 
 {% endraw %}
+
+<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+    {% assign repo = site.data.repositories.github_repos[0] %}
+    {% include repository/repo.liquid repository=repo %}
+</div>
+
+<div class="">
+    <embed src="../../assets/pdf/andyqin_resume.pdf" width="500" height="375" />
+</div>
+
+
