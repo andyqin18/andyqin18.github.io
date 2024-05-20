@@ -8,6 +8,7 @@ category: Graduate
 giscus_comments: false
 ---
 
+Check out the project below 🠯🠯🠯
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
     {% assign repo = site.data.repositories.github_repos[3] %}
     {% include repository/repo.liquid repository=repo %}
@@ -24,7 +25,7 @@ In many variations of object detection in self-driving cars, image data is paire
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    Example Output of 3D Bounding Boxes (Cars)d
 </div>
 
 You can also put regular text between your rows of images.

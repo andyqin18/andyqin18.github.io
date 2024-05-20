@@ -8,6 +8,10 @@ category: Graduate
 giscus_comments: false
 ---
 
+<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+    {% assign repo = site.data.repositories.github_repos[2] %}
+    {% include repository/repo.liquid repository=repo %}
+</div>
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.

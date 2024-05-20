@@ -5,9 +5,13 @@ description: SLAM and path planning on a differential drive Mbot to relocate tar
 img: assets/img//botlab/botlab_cover4.png
 importance: 3
 category: Graduate
-giscus_comments: true
+giscus_comments: false
 ---
 
+<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+    {% assign repo = site.data.repositories.github_repos[5] %}
+    {% include repository/repo.liquid repository=repo %}
+</div>
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
