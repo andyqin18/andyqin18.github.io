@@ -64,5 +64,5 @@ Service and leadership
 * Currently signed in to 43 different slack teams -->
 
 <div class="">
-    <embed src="../../files/andyqin_resume.pdf" width="500" height="375" />
+    <embed src="../../files/Andy_Qin_Resume.pdf" width="500" height="375" />
 </div>
