@@ -27,8 +27,8 @@
       <div class="collapse navbar-collapse" id="navItems">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item"><a class="nav-link" href="#home">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
           <li class="nav-item"><a class="nav-link" href="#publications">Publications</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
           <li class="nav-item"><a class="nav-link" href="#cv">CV</a></li>
           <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
         </ul>
@@ -47,19 +47,15 @@
         </div>
         <div class="col-md-8">
           <h1 class="display-5 fw-bold mb-1">Tianhao (Andy) Qin</h1>
-          <p class="lead text-secondary mb-3">M.S. in Robotics, University of Michigan</p>
+          <p class="lead text-secondary mb-3">Ph.D. in Robotics Engineering, Worcester Polytechnic Institute</p>
           <p>
-            Hi! I'm Andy, a Robotics master's student at the University of Michigan, originally
-            from Shanghai. I earned my B.S. in Mechanical Engineering from NYU in 2023. My
-            interests span <strong>deep learning for computer vision</strong>,
-            <strong>navigation of mobile robots</strong>, and
-            <strong>optimal control of articulated limbs</strong>.
+            Hi! I'm Andy, a Ph.D. student in Robotics Engineering at <strong style="color:#AC2B37">Worcester Polytechnic Institute</strong>. I received my B.S. in Mechanical Engineering from <strong style="color:#57068C">New York University</strong> in 2023 and M.S. in Robotics from <strong style="color:#00274C">University of Michigan, Ann Arbor</strong> in 2025. My research focuses on <strong>data-driven modeling</strong> and <strong>robotic manipulation</strong>, with an emphasis on <strong>interactions with deformable objects</strong>.
           </p>
           <!-- Social / quick links -->
           <div class="social-links mt-3">
             <a href="mailto:andyqin918@gmail.com" title="Email"><i class="bi bi-envelope-fill"></i></a>
             <a href="https://github.com/andyqin18" target="_blank" rel="noopener" title="GitHub"><i class="bi bi-github"></i></a>
-            <a href="#" target="_blank" rel="noopener" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
+            <a href="https://www.linkedin.com/in/tianhao-qin" target="_blank" rel="noopener" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
             <a href="#" target="_blank" rel="noopener" title="Google Scholar"><i class="bi bi-mortarboard-fill"></i></a>
             <a href="assets/cv.pdf" target="_blank" rel="noopener" title="CV"><i class="bi bi-file-earmark-person-fill"></i></a>
           </div>
@@ -68,8 +64,48 @@
     </div>
   </section>
 
+  <!-- ============ PUBLICATIONS ============ -->
+  <section id="publications" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">Publications</h2>
+
+      <!-- TODO: duplicate one .entry block per paper. Thumbnails go in assets/pubs/ -->
+      <div class="entry row g-4">
+        <div class="col-md-3">
+          <img src="assets/pubs/pub1.png" alt="Publication 1"
+               class="entry-thumb" onerror="this.style.opacity=0.2" />
+        </div>
+        <div class="col-md-9">
+          <h5 class="mb-1">OCT-DeformNet: Optical Coherence Tomography Guided Biological Tissue Shape Prediction for Robot Palpation in Microsurgery</h5>
+          <p class="mb-1">Guangshen Ma<sup>*</sup>, <strong>Tianhao Qin</strong><sup>*</sup>, Jiawei Liu, Mark Draelos</p>
+          <p class="text-muted mb-2 small"><sup>*</sup> Equal contribution &nbsp;·&nbsp; <em>IEEE International Conference on Robotics and Automation (ICRA)</em>, 2026</p>
+          <div class="entry-links">
+            <a href="assets/pubs/ICRA2026.pdf" target="_blank" rel="noopener"><i class="bi bi-file-earmark-pdf"></i> PDF</a>
+            <a href="#" target="_blank" rel="noopener"><i class="bi bi-github"></i> Code</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- ======================== -->
+      <div class="entry row g-4">
+        <div class="col-md-3">
+          <img src="assets/pubs/pub1.png" alt="Publication 1"
+               class="entry-thumb" onerror="this.style.opacity=0.2" />
+        </div>
+        <div class="col-md-9">
+          <h5 class="mb-1">From Theory to Practice: A Hands-On Laboratory Curriculum for Graduate Medical Robotics Education</h5>
+          <p class="mb-1"><strong>Tianhao Qin</strong>, Mark Draelos, Gregory A. Formosa</p>
+          <p class="text-muted mb-2 small"><em>ASEE Annual Conference</em>, 2026</p>
+          <div class="entry-links">
+            <a href="assets/pubs/ASEE2026.pdf" target="_blank" rel="noopener"><i class="bi bi-file-earmark-pdf"></i> PDF</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- ============ PROJECTS ============ -->
-  <section id="projects" class="section section-alt">
+  <section id="projects" class="section">
     <div class="container">
       <h2 class="section-title">Projects</h2>
 
@@ -114,31 +150,6 @@
     </div>
   </section>
 
-  <!-- ============ PUBLICATIONS ============ -->
-  <section id="publications" class="section">
-    <div class="container">
-      <h2 class="section-title">Publications</h2>
-
-      <!-- TODO: duplicate one .entry block per paper. Thumbnails go in assets/pubs/ -->
-      <div class="entry row g-4">
-        <div class="col-md-3">
-          <img src="assets/pubs/pub1.png" alt="Publication 1"
-               class="entry-thumb" onerror="this.style.opacity=0.2" />
-        </div>
-        <div class="col-md-9">
-          <h5 class="mb-1">Paper Title Goes Here</h5>
-          <p class="mb-1"><strong>Tianhao Qin</strong>, Co-Author, Another Author</p>
-          <p class="text-muted mb-2 small"><em>Venue / Conference</em>, 2025</p>
-          <div class="entry-links">
-            <a href="#" target="_blank" rel="noopener"><i class="bi bi-file-earmark-pdf"></i> PDF</a>
-            <a href="#" target="_blank" rel="noopener"><i class="bi bi-github"></i> Code</a>
-            <a href="#" target="_blank" rel="noopener"><i class="bi bi-link-45deg"></i> Project Page</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
   <!-- ============ CV ============ -->
   <section id="cv" class="section section-alt">
     <div class="container text-center">
@@ -156,7 +167,7 @@
     <div class="container text-center">
       <h2 class="section-title">Contact</h2>
       <p class="mb-1"><i class="bi bi-envelope"></i> <a href="mailto:andyqin918@gmail.com">andyqin918@gmail.com</a></p>
-      <p class="mb-1"><i class="bi bi-geo-alt"></i> Ann Arbor, MI</p>
+      <p class="mb-1"><i class="bi bi-geo-alt"></i> Boston, MA</p>
       <div class="social-links mt-3">
         <a href="https://github.com/andyqin18" target="_blank" rel="noopener" title="GitHub"><i class="bi bi-github"></i></a>
         <a href="#" target="_blank" rel="noopener" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
