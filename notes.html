@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Robotics Notes — Andy Qin</title>
+  <meta name="description" content="Robotics concepts and learning notes by Tianhao (Andy) Qin." />
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+  <!-- highlight.js theme for code blocks -->
+  <link href="https://cdn.jsdelivr.net/npm/highlight.js@11.9.0/styles/github.min.css" rel="stylesheet" />
+  <!-- KaTeX for math -->
+  <link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" />
+  <!-- Custom styles -->
+  <link href="css/style.css" rel="stylesheet" />
+  <link href="css/notes.css" rel="stylesheet" />
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#tocNav" data-bs-offset="90" tabindex="0">
+
+  <!-- ============ NAVBAR ============ -->
+  <nav id="mainNav" class="navbar navbar-expand-lg navbar-light fixed-top">
+    <div class="container-fluid px-4">
+      <a class="navbar-brand fw-bold" href="index.html#home">Andy Qin</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navItems"
+        aria-controls="navItems" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navItems">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html#home">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#publications">Publications</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#cv">CV</a></li>
+          <li class="nav-item"><a class="nav-link active" href="notes.html">Notes</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ============ DOCS LAYOUT ============ -->
+  <div class="docs-wrapper">
+    <div class="container-fluid">
+      <div class="row">
+
+        <!-- Left sidebar: page list (built by notes.js) -->
+        <nav class="col-lg-3 col-xl-2 docs-sidebar" id="docsSidebar" aria-label="Notes navigation">
+          <div class="docs-sidebar-inner">
+            <form class="docs-search" onsubmit="return false;">
+              <i class="bi bi-search"></i>
+              <input type="text" id="docsSearch" placeholder="Filter pages…" autocomplete="off" />
+            </form>
+            <ul class="docs-nav" id="docsNav"><!-- injected --></ul>
+          </div>
+        </nav>
+
+        <!-- Main content -->
+        <main class="col-lg-7 col-xl-8 docs-main">
+          <article id="docsContent" class="docs-content">
+            <p class="text-muted">Loading…</p>
+          </article>
+
+          <!-- Prev / next -->
+          <div class="docs-pager" id="docsPager"><!-- injected --></div>
+        </main>
+
+        <!-- Right: on-this-page TOC -->
+        <nav class="col-lg-2 d-none d-lg-block docs-toc" id="tocNav" aria-label="On this page">
+          <div class="docs-toc-inner">
+            <p class="docs-toc-title">On this page</p>
+            <ul class="docs-toc-list" id="tocList"><!-- injected --></ul>
+          </div>
+        </nav>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS bundle (navbar toggle) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Markdown renderer + code highlighting -->
+  <script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/highlight.js@11.9.0/highlight.min.js"></script>
+  <!-- KaTeX math rendering -->
+  <script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
+  <!-- Sidebar manifest (edit this to add pages) -->
+  <script src="notes/notes-config.js"></script>
+  <!-- Notes loader -->
+  <script src="js/notes.js"></script>
+</body>
+</html>
