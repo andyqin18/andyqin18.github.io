@@ -14,9 +14,13 @@
   var cfg = window.NOTES_CONFIG || { sections: [] };
 
   // Flat list of pages in sidebar order (for prev/next + default page).
+  // Includes section pages first, then any collapsible group pages.
   var pages = [];
   cfg.sections.forEach(function (section) {
     (section.pages || []).forEach(function (p) { pages.push(p); });
+    (section.groups || []).forEach(function (g) {
+      (g.pages || []).forEach(function (p) { pages.push(p); });
+    });
   });
 
   var navEl = document.getElementById("docsNav");
@@ -32,6 +36,59 @@
   }
 
   // ---- Sidebar -------------------------------------------------
+  function makePageItem(p) {
+    var li = document.createElement("li");
+    li.className = "docs-nav-item";
+    var a = document.createElement("a");
+    a.href = "#" + p.id;
+    a.textContent = p.title;
+    a.dataset.id = p.id;
+    li.appendChild(a);
+    return li;
+  }
+
+  // A collapsible dropdown (e.g. a "Terms" group). Collapsed by default.
+  function makeGroup(g) {
+    var li = document.createElement("li");
+    li.className = "docs-nav-group";
+
+    var btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "docs-nav-group-toggle";
+    btn.setAttribute("aria-expanded", "false");
+    btn.innerHTML = "<i class='bi bi-chevron-right'></i><span>" +
+      (g.title || "") + "</span>";
+
+    var ul = document.createElement("ul");
+    ul.className = "docs-nav-group-list";
+    ul.hidden = true;
+    (g.pages || []).forEach(function (p) { ul.appendChild(makePageItem(p)); });
+
+    btn.addEventListener("click", function () {
+      if (ul.hidden) { openGroup(li); } else { closeGroup(li); }
+    });
+
+    li.appendChild(btn);
+    li.appendChild(ul);
+    return li;
+  }
+
+  function openGroup(group) {
+    var ul = group.querySelector(".docs-nav-group-list");
+    var btn = group.querySelector(".docs-nav-group-toggle");
+    if (ul) ul.hidden = false;
+    if (btn) btn.setAttribute("aria-expanded", "true");
+    group.classList.add("open");
+  }
+
+  function closeGroup(group) {
+    var ul = group.querySelector(".docs-nav-group-list");
+    var btn = group.querySelector(".docs-nav-group-toggle");
+    if (ul) ul.hidden = true;
+    if (btn) btn.setAttribute("aria-expanded", "false");
+    group.classList.remove("open");
+  }
+
   function buildSidebar() {
     navEl.innerHTML = "";
     cfg.sections.forEach(function (section) {
@@ -42,21 +99,23 @@
         navEl.appendChild(head);
       }
       (section.pages || []).forEach(function (p) {
-        var li = document.createElement("li");
-        li.className = "docs-nav-item";
-        var a = document.createElement("a");
-        a.href = "#" + p.id;
-        a.textContent = p.title;
-        a.dataset.id = p.id;
-        li.appendChild(a);
-        navEl.appendChild(li);
+        navEl.appendChild(makePageItem(p));
+      });
+      (section.groups || []).forEach(function (g) {
+        navEl.appendChild(makeGroup(g));
       });
     });
   }
 
   function highlightActiveSidebar(id) {
     navEl.querySelectorAll("a").forEach(function (a) {
-      a.classList.toggle("active", a.dataset.id === id);
+      var active = a.dataset.id === id;
+      a.classList.toggle("active", active);
+      // If the active page lives inside a collapsed group, open it.
+      if (active) {
+        var group = a.closest(".docs-nav-group");
+        if (group) openGroup(group);
+      }
     });
   }
 
@@ -192,6 +251,9 @@
   if (searchEl) {
     searchEl.addEventListener("input", function () {
       var q = searchEl.value.toLowerCase().trim();
+      // Expand every group while searching so matches aren't hidden inside
+      // a collapsed dropdown.
+      if (q) navEl.querySelectorAll(".docs-nav-group").forEach(openGroup);
       navEl.querySelectorAll(".docs-nav-item").forEach(function (li) {
         var hit = li.textContent.toLowerCase().indexOf(q) !== -1;
         li.style.display = hit ? "" : "none";

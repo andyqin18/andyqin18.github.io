@@ -77,6 +77,36 @@
   border-left-color: var(--accent);
 }
 
+/* ---- Collapsible group (e.g. "Terms") ---- */
+.docs-nav-group { list-style: none; }
+.docs-nav-group-toggle {
+  display: flex;
+  align-items: center;
+  gap: .4rem;
+  width: 100%;
+  padding: .28rem .6rem;
+  margin: 0;
+  background: none;
+  border: none;
+  border-radius: 6px;
+  font-size: .9rem;
+  color: #3b4148;
+  cursor: pointer;
+  text-align: left;
+}
+.docs-nav-group-toggle:hover { background: #eef1f4; }
+.docs-nav-group-toggle i {
+  font-size: .72rem;
+  color: #8a929b;
+  transition: transform .15s ease;
+}
+.docs-nav-group.open .docs-nav-group-toggle i { transform: rotate(90deg); }
+.docs-nav-group-list {
+  list-style: none;
+  margin: .1rem 0 .2rem;
+  padding-left: .55rem;
+}
+
 /* ---- Main content ---- */
 .docs-main {
   padding: 2rem 2.5rem 4rem;
